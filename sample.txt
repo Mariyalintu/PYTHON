@@ -1,0 +1,3 @@
+Your code defines a function find_string_in_file that takes a file path and a search string as input parameters. It then attempts to open the file specified by the file path and searches for occurrences of the search string within the file, printing out the lines where the string is found along with their line numbers.
+
+However, if the file specified by file_path does not exist or cannot be opened, your function will raise a FileNotFoundError. To ensure robustness, you may want to add error handling to catch and handle this exception.
